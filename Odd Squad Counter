@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int n, i, count = 0;
+    
+    scanf("%d", &n);   // Read number of elements
+    
+    int arr[n];
+    
+    for(i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);   // Read array elements
+        
+        if(arr[i] % 2 != 0) {   // Check if odd
+            count++;
+        }
+    }
+    
+    printf("%d", count);   // Print count of odd numbers
+    
+    return 0;
+}
