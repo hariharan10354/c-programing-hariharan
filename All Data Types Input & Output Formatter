@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    long long b;
+    float c;
+    double d;
+    char e;
+    int f;
+
+    scanf("%d %lld %f %lf %c %d", &a, &b, &c, &d, &e, &f);
+
+    printf("Integer: %d\n", a);
+    printf("Long Long: %lld\n", b);
+    printf("Float: %g\n", c);
+    printf("Double: %g\n", d);
+    printf("Character: %c\n", e);
+    printf("Boolean: %d\n", f);
+
+    return 0;
+}
